@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MOBILE NUMBER INFORMATION</title>
+  <link rel="stylesheet" href='/static/style.css'/>
+</head>
+<body>
+  <div class="container">
+    <h1>Find Time Zone, Mobile Company and Region by Phone Number</h1>
+    <form action="/detect_location" method="POST">
+      <input type="text" name="mobile_number" placeholder="Enter mobile number">
+      <button type="submit">
+        <img src="../static/location-arrow-solid.svg" alt="Location Icon">
+        
+      </button>
+      <h4 id="animatedText">Uncover the Secrets Behind Your Phone Number</h4>
+    </form>
+  </div>
+</body>
+</html>

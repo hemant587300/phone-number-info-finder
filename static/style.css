@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1575d5; /* Light Grey */
+}
+
+.container {
+  width: 1000px;
+  max-width: 90%;
+  height: auto;
+  margin: 50px auto;
+  padding: 40px;
+  border: 2px solid #1abc9c; /* Green Border */
+  border-radius: 10px;
+  background-color: #e0d2d2; /* White */
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2); /* Soft Shadow */
+  position: relative;
+  animation: containerZoomIn 0.5s ease-in-out forwards;
+}
+
+/* Header Styles */
+h1 {
+  font-size: 36px; /* Large Title */
+  color: #e74c3c; /* Red */
+}
+
+h2 {
+  font-size: 24px; /* Medium Subtitle */
+  color: #f39c12; /* Orange */
+}
+
+h4 {
+  font-size: 20px;
+  color: #2c3e50; /* Dark Blue-Grey */
+}
+
+/* Form Styles */
+input[type="text"] {
+  width: calc(100% - 32px); /* Adjusted Width */
+  padding: 15px;
+  margin-bottom: 20px; /* Increased Space */
+  border: 2px solid #bdc3c7; /* Light Grey Border */
+  border-radius: 5px;
+  font-size: 18px; /* Larger Font */
+  background-color: #d5dde0; /* Light Grey */
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #3498db; /* Bright Blue */
+}
+
+button {
+  padding: 15px 30px; /* Padded Button */
+  background-color: #3498db; /* Bright Blue */
+  color: #ffffff; /* White Text */
+  border: none;
+  width: 120px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex; /* Allow icon and text to align horizontally */
+  align-items: center; /* Vertically center icon and text */
+}
+
+button img {
+  margin-right: 10px; /* Adjust space between icon and text */
+}
+
+button:hover {
+  background-color: #2980b9; /* Darker Blue on Hover */
+}
+
+/* Result Styles */
+.result {
+  margin-top: 30px; /* Increased Margin */
+  border-top: 2px solid #bdc3c7; /* Light Grey Border */
+  padding: 20px;
+  background-color: #2ecc71; /* Green */
+}
+
+.result h2 {
+  margin-bottom: 15px; /* Increased Space */
+  font-size: 24px; /* Larger Heading */
+  color: #fff; /* White */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Enhanced Shadow */
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 18px; /* Larger Font */
+  color: #34495e; /* Dark Blue-Grey */
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MOBILE NUMBER INFORMATION - Result</title>
+  <link rel="stylesheet" href='/static/style.css'/>
+</head>
+<body>
+  <div class="container">
+    {% if error %}
+    <h1>Error: {{ error }}</h1>
+    {% else %}
+    <h3>DETECT INFORMATION:</h3>
+    <p>Time Zones: {{ location['time_zones'] }}</p>
+    <p>Mobile Company: {{ location['mobile_company'] }}</p>
+    <p>Region: {{ location['region'] }}</p>
+    {% endif %}
+  </div>
+</body>
+</html>
